@@ -9,23 +9,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Added
-
-- [Exchanger](https://github.com/florianv/exchanger) exchange
-- Generated static factory to help IDEs understand code like `Money::EUR(500)`
-- Aggregation functions
-
-### Changed
-
-- `Money::add` and `Money::subtract` now accept variadic arguments
-
-### Fixed
-
-- Division causing unnecessary fractional parts
-
-
-## [3.1.3] - 2018-02-16
-
 ### Fixed
 
 - Allocation when the amount is smaller than the number of ratios
@@ -295,8 +278,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - 2012-12-10 Renamed Money::getUnits() to Money::getAmount()
 
 
-[Unreleased]: https://github.com/moneyphp/money/compare/v3.1.3...HEAD
-[3.1.3]: https://github.com/moneyphp/money/compare/v3.1.2...v3.1.3
+[Unreleased]: https://github.com/moneyphp/money/compare/v3.1.2...HEAD
 [3.1.2]: https://github.com/moneyphp/money/compare/v3.1.1...v3.1.2
 [3.1.1]: https://github.com/moneyphp/money/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/moneyphp/money/compare/v3.0.9...v3.1.0
