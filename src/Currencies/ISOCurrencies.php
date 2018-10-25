@@ -25,6 +25,7 @@ final class ISOCurrencies implements Currencies
      */
     public function contains(Currency $currency)
     {
+        // contains
         return isset($this->getCurrencies()[$currency->getCode()]);
     }
 
