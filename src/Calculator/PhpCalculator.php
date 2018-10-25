@@ -24,6 +24,7 @@ final class PhpCalculator implements Calculator
      */
     public function compare($a, $b)
     {
+        // Compare 
         return ($a < $b) ? -1 : (($a > $b) ? 1 : 0);
     }
 
